@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ a{
+    text-decoration: none;
+ }
+
+ ul,ol{
+    list-style: none;
+ }
+
+ body{
+    background: #053B50;
+
+ }
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+ }
+
+ /* content css start */
+
+ .game{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .game h1{
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: #EBE76C;
+ }
+ .game h2{
+    font-family: 'Merriweather', serif;
+    /* text-transform: uppercase; */
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #EBE76C;
+ }
+ .game h4{
+    margin-bottom: 20px;
+    color: #FFEEF4;
+ }
+ .game input{
+    border-bottom-left-radius: 30px ;
+    border-top-right-radius: 30px ;
+    outline: none;
+    font-family: 'Merriweather', serif;
+    /* text-transform: uppercase; */
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 14px 25px;
+    width: 450px;
+    display: block;
+    background: #313866;
+    color: #A6FF96;
+    border: 1px solid #89B9AD;
+ }
+
+ ::placeholder{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #EBE76C;
+    opacity: 1;
+ }
+
+ .game p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+ }
+
+ .game button{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 35px;
+    background: transparent;
+    border: 2px solid #EBE76C;
+    color: #EBE76C;
+    margin-top: 20px;
+    transition: .5s;
+ }
+ .game button:hover{
+    color: #000;
+    background: #EBE76C;
+    border: 2px solid #EBE76C;
+ }
+
+
+
+.div-two{
+    display: none;
+}
